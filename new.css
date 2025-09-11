@@ -1,0 +1,28 @@
+.st{
+    gap: 4px;
+color: rgb(15, 16, 16);
+border: 2px solid black;
+height: 300px;
+width: 100%;
+display: flex;
+}
+.box{
+    border: 2px solid black;
+    width: 90px;
+    height: 20;
+
+}
+
+.box:nth-child(1){
+  background-color: aqua;
+}
+.box:nth-child(2){
+    background-color: red;
+}
+.box:nth-child(3){
+  background-color: aqua;
+}
+
+.secs{
+  padding-top: 100px;
+}
