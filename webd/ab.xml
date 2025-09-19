@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<company>
+    <employee id="101">
+        <name>Ansh</name>
+        <role>Front-End Developer</role>
+        <skills>
+            <skill>CSS Animations</skill>
+            <skill>JavaScript</skill>
+            <skill>UI/UX Design</skill>
+        </skills>
+    </employee>
+    <employee id="102">
+        <name>Riya</name>
+        <role>Backend Developer</role>
+        <skills>
+            <skill>Python</skill>
+            <skill>SQL</skill>
+            <skill>Flask</skill>
+        </skills>
+    </employee>
+</company>
