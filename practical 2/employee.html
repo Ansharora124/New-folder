@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .box {
+  width: 400px;
+  margin: 15px auto 15px 0; /* top auto bottom left */
+}
+
+
+    .first-input h4 {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .first-input input {
+      flex: 1;
+      margin-left: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <h1>Student Registration Form</h1>
+    <div class="first-input">
+      <h4>Roll no-- <input type="text" placeholder="049"></h4>
+      <h4>Student Name-- <input type="text" placeholder="First name"> <input type="text" placeholder="last name" name="" id=""> </h4>
+      <h4>Father's Name-- <input type="text"></h4>
+      <h4>DOB-- <input type="date"></h4>
+      <h4>Mobile no-- <input type="text"></h4>
+      <h4>Email id-- <input type="text"></h4>
+      <h4>Password-- <input type="password"></h4>
+      <h4>
+        Gender-- 
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+      </h4>
+      
+    </div>
+  </div>
+</body>
+</html>
